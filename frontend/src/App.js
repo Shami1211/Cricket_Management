@@ -1,8 +1,8 @@
 import React from "react";
 import { Route, Routes } from "react-router";
 
-import AddRate from "./Components/Rates/Add-Rates/AddRate";
-import RateDetails from "./Components/Rates/Rate/RateDetails";
+import AddItem from "./Components/Items/Add-Items/AddItem";
+import ItemDetails from "./Components/Items/Item/ItemDetails";
 function App() {
   return (
     <div>
@@ -10,10 +10,10 @@ function App() {
         <Routes>
           
 
-          {/*Ratings*/}
-          <Route path="/" element={<AddRate />} />
-          <Route path="/ratedetails" element={<RateDetails />} />
-          <Route path="/ratedetails" element={<RateDetails />} />
+          {/*Items*/}
+          <Route path="/" element={<AddItem />} />
+          <Route path="/itemdetails" element={<ItemDetails />} />
+         
   
         </Routes>
       </React.Fragment>
