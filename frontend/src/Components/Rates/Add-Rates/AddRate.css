@@ -1,0 +1,57 @@
+.rate-full-box {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #4890ad;
+  border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+.rate-topic {
+  font-size: 34px;
+  text-align: center;
+  color: #333;
+}
+
+.rate-us {
+  color: #4890ad;
+}
+
+.rate-full-box-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.rate-full-box-label {
+  font-size: 25px;
+margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.rate-full-box-input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.rate-text {
+  min-height: 100px;
+  resize: none;
+}
+
+.rate-add-btn {
+  padding: 10px 20px;
+  background-color: #4890ad;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.rate-add-btn:hover {
+  background-color: #4890ad;
+}
